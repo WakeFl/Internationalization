@@ -1,8 +1,14 @@
 {
   "Index": {
-    "title": "Hail H****r"
+    "title": "Startseite",
+    "desc": "Heil Hitler!"
   },
   "Something": {
-    "title": "Какая-то хрень по немецки"
+    "title": "Einige Sachen",
+    "something": "Etwas"
+  },
+  "Header": {
+    "main": "Haupt",
+    "something": "Etwas"
   }
 }

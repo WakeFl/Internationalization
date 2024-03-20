@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -19,12 +18,17 @@ export default function RootLayout({
   return (
     <html lang={params.locale}>
       <body className={inter.className}>
-        <NextIntlClientProvider locale={params.locale} messages={messages}>
-          <div className='mb-10'>
-            <Header />
+        <div className='w-5/6 my-0 mx-auto'>
+          <div className='my-10'>
+            <NextIntlClientProvider locale={params.locale} messages={messages}>
+              <Header />
+            </NextIntlClientProvider>
           </div>
+        </div>
+        <hr className='bg-white' />
+        <div className='w-5/6 my-0 mx-auto'>
           <div>{children}</div>
-        </NextIntlClientProvider>
+        </div>
       </body>
     </html>
   );

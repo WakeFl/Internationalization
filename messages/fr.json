@@ -1,8 +1,14 @@
 {
   "Index": {
-    "title": "Bonjur ebat!"
+    "title": "Page principale",
+    "desc": "Bonjur ebat!"
   },
   "Something": {
-    "title": "Какая-то хрень по французки"
+    "title": "Quelques trucs",
+    "something": "Quelque chose"
+  },
+  "Header": {
+    "main": "Principal",
+    "something": "Quelque chose"
   }
 }

@@ -1,8 +1,14 @@
 {
   "Index": {
-    "title": "Hello world!"
+    "title": "Main page",
+    "desc": "Hello World!"
   },
   "Something": {
-    "title": "Какая-то хрень по "
+    "title": "Some stuff",
+    "something": "Something else"
+  },
+  "Header": {
+    "main": "Main",
+    "something": "Something else"
   }
 }
